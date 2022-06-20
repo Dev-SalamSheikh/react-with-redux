@@ -1,11 +1,11 @@
 import "./App.css";
-import Counter from "./components/Counter";
+import Todos from "./components/Todos";
 
 function App() {
   return (
     <div className="App">
-      <h1>React Redux Counter App</h1>
-      <Counter />
+      <h1>React-Redux Fetch Data</h1>
+      <Todos />
     </div>
   );
 }
