@@ -1,29 +1,23 @@
-section {
-  display: grid;
-  gap: 0.5rem;
-  padding: 1rem;
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   text-align: center;
+  background-color: #000;
 }
 
-h1,
-h2 {
-  text-align: center;
+.content {
+  background-color: white;
+  padding: 50px;
+  box-shadow: 5px 3px 3px 5px rgba(255, 255, 255, 0.2);
 }
 
-article {
-  background-color: #293462;
+button {
+  padding: 10px;
+  margin-left: 10px;
+  background-color: black;
   color: #fff;
-  padding: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  section {
-    grid-template-columns: auto auto;
-  }
-}
-
-@media (max-width: 768px) {
-  section {
-    grid-template-columns: auto auto auto;
-  }
+  border-radius: 10px;
+  cursor: pointer;
 }
