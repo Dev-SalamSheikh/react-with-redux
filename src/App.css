@@ -1,23 +1,29 @@
-.App {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+section {
+  padding: 1rem;
   text-align: center;
-  background-color: #000;
+  display: grid;
+  gap: 0.5rem;
 }
 
-.content {
-  background-color: white;
-  padding: 50px;
-  box-shadow: 5px 3px 3px 5px rgba(255, 255, 255, 0.2);
+h1,
+h2 {
+  text-align: center;
 }
 
-button {
-  padding: 10px;
-  margin-left: 10px;
-  background-color: black;
+article {
+  background-color: #293462;
   color: #fff;
-  border-radius: 10px;
-  cursor: pointer;
+  padding: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  section {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    grid-template-columns: auto auto auto;
+  }
 }

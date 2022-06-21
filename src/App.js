@@ -1,13 +1,11 @@
 import "./App.css";
-import CounterView from "./Features/Counter/CounterView";
+import Postsviews from "./features/posts/postView";
 
 function App() {
   return (
     <div className="App">
-      <div className="content">
-        <h1>Counter App With Redux Toolkit</h1>
-        <CounterView />
-      </div>
+      <h1>Fetch Data Using Redux Toolkit</h1>
+      <Postsviews />
     </div>
   );
 }
